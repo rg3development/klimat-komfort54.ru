@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /main
+Disallow: /hidden
+Disallow: /dev
+Host: www.host.ru

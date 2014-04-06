@@ -1,0 +1,37 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$config['base_url']             = "http://".$_SERVER['HTTP_HOST']."/";
+$config['index_page']           = "";
+$config['uri_protocol']         = php_sapi_name() == 'cli' ? "AUTO" : "PATH_INFO";
+$config['url_suffix']           = "";
+$config['language']             = "english";
+$config['charset']              = "UTF-8";
+$config['enable_hooks']         = TRUE;
+$config['subclass_prefix']      = 'MY_';
+$config['permitted_uri_chars']  = 'a-z 0-9~%.:_\-';
+$config['enable_query_strings'] = TRUE;
+$config['controller_trigger']   = 'c';
+$config['function_trigger']     = 'm';
+$config['directory_trigger']    = 'd'; // experimental not currently in use
+$config['log_threshold']        = 1;
+$config['log_path']             = '';
+$config['log_date_format']      = 'd.m.Y H:i:s';
+$config['cache_path']           = '';
+$config['encryption_key']       = "4a7b3b4c55334c5c3a4c37273c2c516b5b367d6839267456685e263f58";
+$config['sess_cookie_name']     = 'ci_session';
+$config['sess_expiration']      = 604800;
+$config['sess_encrypt_cookie']  = TRUE;
+$config['sess_use_database']    = TRUE;
+$config['sess_table_name']      = 'user_sessions';
+$config['sess_match_ip']        = FALSE;
+$config['sess_match_useragent'] = TRUE;
+$config['sess_time_to_update']  = $config['sess_expiration'];
+$config['cookie_prefix']        = "";
+$config['cookie_domain']        = "";
+$config['cookie_path']          = "/";
+$config['global_xss_filtering'] = FALSE;
+$config['compress_output']      = FALSE;
+$config['time_reference']       = 'local';
+$config['rewrite_short_tags']   = FALSE;
+$config['proxy_ips']            = '';
+$config['allow_get_array']      = TRUE;
